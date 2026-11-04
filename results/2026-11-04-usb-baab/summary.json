@@ -1,0 +1,51 @@
+{
+  "normal": {
+    "app_cpu_percent": 64.24979166854972,
+    "app_footprint_mib": 33.5220574558242,
+    "app_resident_mib": 56.43587481805511,
+    "system_cpu_percent": 82.36266761277393,
+    "fps_mean": 23.0871137236106,
+    "capFps_mean": 48.21585712347131,
+    "enc50_mean": 26.48107504616975,
+    "e2e50_mean": 31.810631097664174,
+    "e2e95_mean": 56.65905988122431,
+    "swapin_mib": 712.3369886299326,
+    "swapout_mib": 852.5224304640004,
+    "runs": 2,
+    "cpu_range": [
+      58.94831231293543,
+      69.55119192400933
+    ]
+  },
+  "light": {
+    "app_cpu_percent": 54.58884327920528,
+    "app_footprint_mib": 34.897935331965456,
+    "app_resident_mib": 52.490549689563615,
+    "system_cpu_percent": 84.87666794071542,
+    "fps_mean": 25.181716879817056,
+    "capFps_mean": 47.17019706953502,
+    "enc50_mean": 25.62112395095188,
+    "e2e50_mean": 32.30670140312244,
+    "e2e95_mean": 53.39824081759409,
+    "swapin_mib": 851.8384268587146,
+    "swapout_mib": 290.50345527370825,
+    "runs": 2,
+    "cpu_range": [
+      52.56372213139727,
+      56.61446596401542
+    ]
+  },
+  "cpu_reduction_percent": 15.036544303805853,
+  "cpu_percentage_point_reduction": 9.66094838934444,
+  "fps_increase_percent": 9.072607261705304,
+  "footprint_difference_mib": 1.375877876141253,
+  "system_cpu_difference_points": 2.5140003279414884,
+  "conditions": {
+    "width": 1640,
+    "height": 2360,
+    "mode": "extend",
+    "local_cursor": true
+  },
+  "valid_runs": 4,
+  "excluded_previous_attempts": true
+}

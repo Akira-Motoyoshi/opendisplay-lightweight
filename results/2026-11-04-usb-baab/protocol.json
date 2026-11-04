@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-04",
+  "timezone": "Asia/Tokyo",
+  "hardware": {
+    "model": "MacBookAir9,1",
+    "architecture": "x86_64",
+    "memory_gib": 8,
+    "logical_cpus": 8
+  },
+  "os": "macOS 15.8.1",
+  "normal_version": "1.30.1",
+  "light_source_patch_commit": "4e376c04f5fee832453d2e6473b87a2b05cb1fe0",
+  "light_build": {
+    "compiler": "Swift 6.1.2",
+    "language_mode": "Swift 5",
+    "optimization": "-O -whole-module-optimization",
+    "configuration": "DEBUG",
+    "target": "x86_64-apple-macosx14.0",
+    "sparkle": "2.10.1"
+  },
+  "order": [
+    "B",
+    "A",
+    "A",
+    "B"
+  ],
+  "labels": {
+    "A": "release",
+    "B": "light"
+  },
+  "warmup_seconds": 20,
+  "measurement_seconds": 60,
+  "snapshot_interval_seconds": 2,
+  "connection": "USB",
+  "codec": "H.264",
+  "quality": "Best (default)",
+  "capture": {
+    "width": 1640,
+    "height": 2360,
+    "mode": "extend",
+    "local_cursor": true
+  },
+  "workload": "Fixed Core Animation moving bar on the streamed display; stationary pointer",
+  "other_apps_closed": false,
+  "binaries_modified_during_experiment": false,
+  "cpu_units": {
+    "app": "100% = one logical CPU",
+    "system": "100% = all logical CPUs"
+  },
+  "public_data_transform": "Removed PIDs, uptime, process start/exit ticks and unused process counters. CPU time and host CPU ticks rebased to each trial start. Memory samples, elapsed times, receiver metrics, and swap deltas preserved."
+}

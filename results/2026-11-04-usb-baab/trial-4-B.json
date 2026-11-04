@@ -1,0 +1,685 @@
+{
+  "summary": {
+    "trial": 4,
+    "kind": "B",
+    "label": "light",
+    "duration_s": 60.01849186999607,
+    "capture": {
+      "width": 1640,
+      "height": 2360,
+      "mode": "extend",
+      "local_cursor": true
+    },
+    "app_cpu_percent": 52.56372213139727,
+    "app_footprint_mib": 33.38659274193548,
+    "app_resident_mib": 58.08971774193548,
+    "system_cpu_percent": 84.81832909048832,
+    "swapin_mib": 1155.8515625,
+    "swapout_mib": 523.453125,
+    "receiver_samples": 11,
+    "transports": [
+      "USB"
+    ],
+    "codecs": [
+      "H.264"
+    ],
+    "fps_mean": 24.363636363636363,
+    "capFps_mean": 45.09090909090909,
+    "enc50_mean": 24.90909090909091,
+    "e2e50_mean": 31.363636363636363,
+    "e2e95_mean": 57.54545454545455,
+    "rtt_mean": 23,
+    "cur_mean": 0,
+    "curLost_mean": 0
+  },
+  "snapshots": [
+    {
+      "elapsed": 0.0,
+      "usage": {
+        "ri_user_time": 0,
+        "ri_system_time": 0,
+        "ri_resident_size": 67219456,
+        "ri_phys_footprint": 34562048
+      },
+      "cpu_ticks": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "elapsed": 2.00352917399141,
+      "usage": {
+        "ri_user_time": 658844291,
+        "ri_system_time": 362332111,
+        "ri_resident_size": 67264512,
+        "ri_phys_footprint": 34607104
+      },
+      "cpu_ticks": [
+        945,
+        434,
+        213,
+        0
+      ]
+    },
+    {
+      "elapsed": 4.004784869990544,
+      "usage": {
+        "ri_user_time": 1255809165,
+        "ri_system_time": 735539760,
+        "ri_resident_size": 67301376,
+        "ri_phys_footprint": 34643968
+      },
+      "cpu_ticks": [
+        1875,
+        853,
+        448,
+        0
+      ]
+    },
+    {
+      "elapsed": 6.005323646008037,
+      "usage": {
+        "ri_user_time": 1941546983,
+        "ri_system_time": 1114589881,
+        "ri_resident_size": 67297280,
+        "ri_phys_footprint": 34656256
+      },
+      "cpu_ticks": [
+        2798,
+        1268,
+        693,
+        0
+      ]
+    },
+    {
+      "elapsed": 8.024052863998804,
+      "usage": {
+        "ri_user_time": 2553902237,
+        "ri_system_time": 1460623144,
+        "ri_resident_size": 67317760,
+        "ri_phys_footprint": 34676736
+      },
+      "cpu_ticks": [
+        3725,
+        1681,
+        957,
+        0
+      ]
+    },
+    {
+      "elapsed": 10.011344544996973,
+      "usage": {
+        "ri_user_time": 2776790837,
+        "ri_system_time": 1626866027,
+        "ri_resident_size": 60096512,
+        "ri_phys_footprint": 34705408
+      },
+      "cpu_ticks": [
+        4113,
+        2401,
+        1416,
+        0
+      ]
+    },
+    {
+      "elapsed": 12.00403373199515,
+      "usage": {
+        "ri_user_time": 3201440197,
+        "ri_system_time": 1867336313,
+        "ri_resident_size": 59965440,
+        "ri_phys_footprint": 34795520
+      },
+      "cpu_ticks": [
+        4695,
+        3134,
+        1681,
+        0
+      ]
+    },
+    {
+      "elapsed": 14.004857736988924,
+      "usage": {
+        "ri_user_time": 3847534693,
+        "ri_system_time": 2225767480,
+        "ri_resident_size": 60403712,
+        "ri_phys_footprint": 34885632
+      },
+      "cpu_ticks": [
+        5512,
+        3726,
+        1856,
+        0
+      ]
+    },
+    {
+      "elapsed": 16.002831404999597,
+      "usage": {
+        "ri_user_time": 4347288617,
+        "ri_system_time": 2515794270,
+        "ri_resident_size": 60461056,
+        "ri_phys_footprint": 34897920
+      },
+      "cpu_ticks": [
+        6468,
+        4203,
+        2005,
+        0
+      ]
+    },
+    {
+      "elapsed": 18.006205662008142,
+      "usage": {
+        "ri_user_time": 5069842132,
+        "ri_system_time": 2854277956,
+        "ri_resident_size": 60653568,
+        "ri_phys_footprint": 34951168
+      },
+      "cpu_ticks": [
+        7440,
+        4662,
+        2167,
+        0
+      ]
+    },
+    {
+      "elapsed": 20.00510683399625,
+      "usage": {
+        "ri_user_time": 5779337301,
+        "ri_system_time": 3239942566,
+        "ri_resident_size": 60768256,
+        "ri_phys_footprint": 35028992
+      },
+      "cpu_ticks": [
+        8389,
+        5103,
+        2361,
+        0
+      ]
+    },
+    {
+      "elapsed": 22.001549445005367,
+      "usage": {
+        "ri_user_time": 6363322968,
+        "ri_system_time": 3645028367,
+        "ri_resident_size": 60768256,
+        "ri_phys_footprint": 35028992
+      },
+      "cpu_ticks": [
+        9365,
+        5531,
+        2534,
+        0
+      ]
+    },
+    {
+      "elapsed": 24.00475184698007,
+      "usage": {
+        "ri_user_time": 6994907863,
+        "ri_system_time": 4020416952,
+        "ri_resident_size": 60682240,
+        "ri_phys_footprint": 35049472
+      },
+      "cpu_ticks": [
+        10313,
+        6026,
+        2685,
+        0
+      ]
+    },
+    {
+      "elapsed": 26.00402602099348,
+      "usage": {
+        "ri_user_time": 7728458101,
+        "ri_system_time": 4444485396,
+        "ri_resident_size": 60571648,
+        "ri_phys_footprint": 35074048
+      },
+      "cpu_ticks": [
+        11236,
+        6526,
+        2847,
+        0
+      ]
+    },
+    {
+      "elapsed": 28.00392721800017,
+      "usage": {
+        "ri_user_time": 8433275535,
+        "ri_system_time": 4918226919,
+        "ri_resident_size": 60690432,
+        "ri_phys_footprint": 35246080
+      },
+      "cpu_ticks": [
+        12199,
+        6932,
+        3063,
+        0
+      ]
+    },
+    {
+      "elapsed": 30.006330960983178,
+      "usage": {
+        "ri_user_time": 9237489480,
+        "ri_system_time": 5394989382,
+        "ri_resident_size": 60547072,
+        "ri_phys_footprint": 35115008
+      },
+      "cpu_ticks": [
+        13152,
+        7343,
+        3283,
+        0
+      ]
+    },
+    {
+      "elapsed": 32.00508155999705,
+      "usage": {
+        "ri_user_time": 10052744993,
+        "ri_system_time": 5881117757,
+        "ri_resident_size": 60555264,
+        "ri_phys_footprint": 35123200
+      },
+      "cpu_ticks": [
+        14065,
+        7750,
+        3541,
+        0
+      ]
+    },
+    {
+      "elapsed": 34.00394874298945,
+      "usage": {
+        "ri_user_time": 10741662319,
+        "ri_system_time": 6323723005,
+        "ri_resident_size": 60469248,
+        "ri_phys_footprint": 35139584
+      },
+      "cpu_ticks": [
+        14858,
+        8363,
+        3717,
+        0
+      ]
+    },
+    {
+      "elapsed": 36.00175526799285,
+      "usage": {
+        "ri_user_time": 11548146225,
+        "ri_system_time": 6799516558,
+        "ri_resident_size": 60526592,
+        "ri_phys_footprint": 35155968
+      },
+      "cpu_ticks": [
+        15793,
+        8820,
+        3905,
+        0
+      ]
+    },
+    {
+      "elapsed": 38.00506830398808,
+      "usage": {
+        "ri_user_time": 12279507170,
+        "ri_system_time": 7216746942,
+        "ri_resident_size": 60334080,
+        "ri_phys_footprint": 35123200
+      },
+      "cpu_ticks": [
+        16687,
+        9400,
+        4025,
+        0
+      ]
+    },
+    {
+      "elapsed": 40.02333922398975,
+      "usage": {
+        "ri_user_time": 12904409291,
+        "ri_system_time": 7622794558,
+        "ri_resident_size": 59793408,
+        "ri_phys_footprint": 35139584
+      },
+      "cpu_ticks": [
+        17538,
+        9898,
+        4275,
+        0
+      ]
+    },
+    {
+      "elapsed": 42.004790963983396,
+      "usage": {
+        "ri_user_time": 13490708061,
+        "ri_system_time": 7967700915,
+        "ri_resident_size": 58900480,
+        "ri_phys_footprint": 35139584
+      },
+      "cpu_ticks": [
+        18059,
+        10423,
+        4798,
+        0
+      ]
+    },
+    {
+      "elapsed": 44.00023447498097,
+      "usage": {
+        "ri_user_time": 14153926061,
+        "ri_system_time": 8348732218,
+        "ri_resident_size": 58961920,
+        "ri_phys_footprint": 35147776
+      },
+      "cpu_ticks": [
+        18764,
+        10803,
+        5292,
+        0
+      ]
+    },
+    {
+      "elapsed": 46.00216852198355,
+      "usage": {
+        "ri_user_time": 14814959115,
+        "ri_system_time": 8767146402,
+        "ri_resident_size": 58986496,
+        "ri_phys_footprint": 35151872
+      },
+      "cpu_ticks": [
+        19649,
+        11177,
+        5619,
+        0
+      ]
+    },
+    {
+      "elapsed": 48.00482926698169,
+      "usage": {
+        "ri_user_time": 15616037606,
+        "ri_system_time": 9247906960,
+        "ri_resident_size": 58998784,
+        "ri_phys_footprint": 35155968
+      },
+      "cpu_ticks": [
+        20630,
+        11602,
+        5800,
+        0
+      ]
+    },
+    {
+      "elapsed": 50.00589304298046,
+      "usage": {
+        "ri_user_time": 16446496440,
+        "ri_system_time": 9737016738,
+        "ri_resident_size": 58998784,
+        "ri_phys_footprint": 35155968
+      },
+      "cpu_ticks": [
+        21623,
+        11990,
+        6002,
+        0
+      ]
+    },
+    {
+      "elapsed": 52.00385349598946,
+      "usage": {
+        "ri_user_time": 17189397584,
+        "ri_system_time": 10236435306,
+        "ri_resident_size": 59002880,
+        "ri_phys_footprint": 35155968
+      },
+      "cpu_ticks": [
+        22576,
+        12403,
+        6218,
+        0
+      ]
+    },
+    {
+      "elapsed": 54.004757494985824,
+      "usage": {
+        "ri_user_time": 18026728349,
+        "ri_system_time": 10721029255,
+        "ri_resident_size": 59002880,
+        "ri_phys_footprint": 35155968
+      },
+      "cpu_ticks": [
+        23499,
+        12811,
+        6464,
+        0
+      ]
+    },
+    {
+      "elapsed": 56.00486698700115,
+      "usage": {
+        "ri_user_time": 18852216964,
+        "ri_system_time": 11214348362,
+        "ri_resident_size": 58998784,
+        "ri_phys_footprint": 35155968
+      },
+      "cpu_ticks": [
+        24426,
+        13217,
+        6714,
+        0
+      ]
+    },
+    {
+      "elapsed": 58.009671595995314,
+      "usage": {
+        "ri_user_time": 19491690221,
+        "ri_system_time": 11614964494,
+        "ri_resident_size": 58564608,
+        "ri_phys_footprint": 35160064
+      },
+      "cpu_ticks": [
+        25272,
+        13725,
+        6943,
+        0
+      ]
+    },
+    {
+      "elapsed": 60.01849186999607,
+      "usage": {
+        "ri_user_time": 19801023685,
+        "ri_system_time": 11746929609,
+        "ri_resident_size": 54153216,
+        "ri_phys_footprint": 35274752
+      },
+      "cpu_ticks": [
+        25893,
+        14422,
+        7216,
+        0
+      ]
+    }
+  ],
+  "receiver_stats": [
+    {
+      "fps": 28,
+      "capFps": 40,
+      "enc50": 23,
+      "dec50": 0,
+      "e2e50": 31,
+      "e2e95": 42,
+      "rtt": 6,
+      "stalls": 2,
+      "hitch": 3,
+      "mbps": 0.1,
+      "transport": "USB",
+      "codec": "H.264",
+      "cur": 0,
+      "curLost": 0
+    },
+    {
+      "fps": 10,
+      "capFps": 21,
+      "enc50": 23,
+      "dec50": 0,
+      "e2e50": 31,
+      "e2e95": 143,
+      "rtt": 178,
+      "stalls": 8,
+      "hitch": 15,
+      "mbps": 0.1,
+      "transport": "USB",
+      "codec": "H.264",
+      "cur": 0,
+      "curLost": 0
+    },
+    {
+      "fps": 28,
+      "capFps": 40,
+      "enc50": 22,
+      "dec50": 0,
+      "e2e50": 28,
+      "e2e95": 70,
+      "rtt": 6,
+      "stalls": 0,
+      "hitch": 8,
+      "mbps": 0.1,
+      "transport": "USB",
+      "codec": "H.264",
+      "cur": 0,
+      "curLost": 0
+    },
+    {
+      "fps": 24,
+      "capFps": 38,
+      "enc50": 25,
+      "dec50": 0,
+      "e2e50": 31,
+      "e2e95": 42,
+      "rtt": 6,
+      "stalls": 5,
+      "hitch": 11,
+      "mbps": 0.1,
+      "transport": "USB",
+      "codec": "H.264",
+      "cur": 0,
+      "curLost": 0
+    },
+    {
+      "fps": 28,
+      "capFps": 50,
+      "enc50": 24,
+      "dec50": 0,
+      "e2e50": 30,
+      "e2e95": 44,
+      "rtt": 8,
+      "stalls": 1,
+      "hitch": 6,
+      "mbps": 0.1,
+      "transport": "USB",
+      "codec": "H.264",
+      "cur": 0,
+      "curLost": 0
+    },
+    {
+      "fps": 24,
+      "capFps": 50,
+      "enc50": 28,
+      "dec50": 0,
+      "e2e50": 33,
+      "e2e95": 43,
+      "rtt": 4,
+      "stalls": 1,
+      "hitch": 1,
+      "mbps": 0.1,
+      "transport": "USB",
+      "codec": "H.264",
+      "cur": 0,
+      "curLost": 0
+    },
+    {
+      "fps": 27,
+      "capFps": 53,
+      "enc50": 26,
+      "dec50": 0,
+      "e2e50": 33,
+      "e2e95": 44,
+      "rtt": 22,
+      "stalls": 2,
+      "hitch": 3,
+      "mbps": 0.3,
+      "transport": "USB",
+      "codec": "H.264",
+      "cur": 0,
+      "curLost": 0
+    },
+    {
+      "fps": 26,
+      "capFps": 53,
+      "enc50": 23,
+      "dec50": 0,
+      "e2e50": 31,
+      "e2e95": 77,
+      "rtt": 4,
+      "stalls": 5,
+      "hitch": 11,
+      "mbps": 0.1,
+      "transport": "USB",
+      "codec": "H.264",
+      "cur": 0,
+      "curLost": 0
+    },
+    {
+      "fps": 25,
+      "capFps": 56,
+      "enc50": 22,
+      "dec50": 0,
+      "e2e50": 28,
+      "e2e95": 41,
+      "rtt": 5,
+      "stalls": 2,
+      "hitch": 5,
+      "mbps": 0.1,
+      "transport": "USB",
+      "codec": "H.264",
+      "cur": 0,
+      "curLost": 0
+    },
+    {
+      "fps": 24,
+      "capFps": 47,
+      "enc50": 29,
+      "dec50": 0,
+      "e2e50": 34,
+      "e2e95": 44,
+      "rtt": 8,
+      "stalls": 5,
+      "hitch": 2,
+      "mbps": 0.1,
+      "transport": "USB",
+      "codec": "H.264",
+      "cur": 0,
+      "curLost": 0
+    },
+    {
+      "fps": 24,
+      "capFps": 48,
+      "enc50": 29,
+      "dec50": 0,
+      "e2e50": 35,
+      "e2e95": 43,
+      "rtt": 6,
+      "stalls": 4,
+      "hitch": 0,
+      "mbps": 0.1,
+      "transport": "USB",
+      "codec": "H.264",
+      "cur": 0,
+      "curLost": 0
+    }
+  ],
+  "vm_delta": {
+    "page_size_bytes": 4096,
+    "swapins": 295898,
+    "swapouts": 134004
+  }
+}

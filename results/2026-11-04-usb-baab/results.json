@@ -1,0 +1,134 @@
+[
+  {
+    "trial": 1,
+    "kind": "B",
+    "label": "light",
+    "duration_s": 60.00363150399062,
+    "capture": {
+      "width": 1640,
+      "height": 2360,
+      "mode": "extend",
+      "local_cursor": true
+    },
+    "app_cpu_percent": 56.61446596401542,
+    "app_footprint_mib": 36.409652217741936,
+    "app_resident_mib": 46.889994959677416,
+    "system_cpu_percent": 84.93502123901249,
+    "swapin_mib": 547.75,
+    "swapout_mib": 57.49609375,
+    "receiver_samples": 12,
+    "transports": [
+      "USB"
+    ],
+    "codecs": [
+      "H.264"
+    ],
+    "fps_mean": 26,
+    "capFps_mean": 49.25,
+    "enc50_mean": 26.333333333333332,
+    "e2e50_mean": 33.25,
+    "e2e95_mean": 49.25,
+    "rtt_mean": 9.666666666666666,
+    "cur_mean": 0,
+    "curLost_mean": 0
+  },
+  {
+    "trial": 2,
+    "kind": "A",
+    "label": "release",
+    "duration_s": 60.003892122011166,
+    "capture": {
+      "width": 1640,
+      "height": 2360,
+      "mode": "extend",
+      "local_cursor": true
+    },
+    "app_cpu_percent": 58.94831231293543,
+    "app_footprint_mib": 32.711819556451616,
+    "app_resident_mib": 54.703629032258064,
+    "system_cpu_percent": 80.24061861317713,
+    "swapin_mib": 1095.05078125,
+    "swapout_mib": 1249.31640625,
+    "receiver_samples": 11,
+    "transports": [
+      "USB"
+    ],
+    "codecs": [
+      "H.264"
+    ],
+    "fps_mean": 24.09090909090909,
+    "capFps_mean": 55.18181818181818,
+    "enc50_mean": 24.545454545454547,
+    "e2e50_mean": 28.454545454545453,
+    "e2e95_mean": 60.81818181818182,
+    "rtt_mean": 8.909090909090908,
+    "cur_mean": 0,
+    "curLost_mean": 0
+  },
+  {
+    "trial": 3,
+    "kind": "A",
+    "label": "release",
+    "duration_s": 60.00478741701227,
+    "capture": {
+      "width": 1640,
+      "height": 2360,
+      "mode": "extend",
+      "local_cursor": true
+    },
+    "app_cpu_percent": 69.55119192400933,
+    "app_footprint_mib": 34.33228326612903,
+    "app_resident_mib": 58.16809475806452,
+    "system_cpu_percent": 84.48468495056602,
+    "swapin_mib": 329.62890625,
+    "swapout_mib": 455.734375,
+    "receiver_samples": 12,
+    "transports": [
+      "USB"
+    ],
+    "codecs": [
+      "H.264"
+    ],
+    "fps_mean": 22.083333333333332,
+    "capFps_mean": 41.25,
+    "enc50_mean": 28.416666666666668,
+    "e2e50_mean": 35.166666666666664,
+    "e2e95_mean": 52.5,
+    "rtt_mean": 8.333333333333334,
+    "cur_mean": 0,
+    "curLost_mean": 0
+  },
+  {
+    "trial": 4,
+    "kind": "B",
+    "label": "light",
+    "duration_s": 60.01849186999607,
+    "capture": {
+      "width": 1640,
+      "height": 2360,
+      "mode": "extend",
+      "local_cursor": true
+    },
+    "app_cpu_percent": 52.56372213139727,
+    "app_footprint_mib": 33.38659274193548,
+    "app_resident_mib": 58.08971774193548,
+    "system_cpu_percent": 84.81832909048832,
+    "swapin_mib": 1155.8515625,
+    "swapout_mib": 523.453125,
+    "receiver_samples": 11,
+    "transports": [
+      "USB"
+    ],
+    "codecs": [
+      "H.264"
+    ],
+    "fps_mean": 24.363636363636363,
+    "capFps_mean": 45.09090909090909,
+    "enc50_mean": 24.90909090909091,
+    "e2e50_mean": 31.363636363636363,
+    "e2e95_mean": 57.54545454545455,
+    "rtt_mean": 23,
+    "cur_mean": 0,
+    "curLost_mean": 0
+  }
+]

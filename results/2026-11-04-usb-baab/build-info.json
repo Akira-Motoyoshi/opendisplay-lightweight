@@ -1,0 +1,23 @@
+{
+  "release_tag": "lightweight-v1.30.1-1",
+  "architecture": "x86_64",
+  "minimum_macos": "14.0",
+  "bundle_id": "com.peetzweg.opensidecar.mac.debug",
+  "bundle_version": "13001",
+  "app_version": "1.30.1",
+  "signature": "ad hoc",
+  "apple_notarized": false,
+  "sparkle_version": "2.10.1",
+  "measured_app_rebuilt_for_publication": false,
+  "executable_sha256": "8a33c87bd7fd698db8abc204b20d7a6e4b62dac780f5e3a3bd6b4dfd1003c2c0",
+  "archive": {
+    "name": "OpenDisplay-Lightweight-1.30.1-1-macOS-Intel.zip",
+    "bytes": 1668379,
+    "sha256": "d6beb050e2ba6c423e4a2b419144936c71a00be94b13e0d934674c61c1e35293"
+  },
+  "baseline_commit": "c7c645d9fa46a9ced3b875c6a1e4e474f6a716cc",
+  "source_patch_commit": "4e376c04f5fee832453d2e6473b87a2b05cb1fe0",
+  "mac_source_tree": "69248c93b5f7cfa860d52048354db0ef3eba51e8",
+  "shared_source_tree": "562da32188c15b07dc06bd0d7bab76b5842ddf63",
+  "sdk": "macOS 15.5"
+}
