@@ -256,6 +256,7 @@ final class MacSender: NSObject, SCStreamOutput, SCStreamDelegate {
     private var currentPathDirectLink = false
     private var lastCursorSent: (x: Double, y: Double, visible: Bool) = (-1, -1, false)
     private var lastCursorPNGHash = 0
+    private var lastCursorBitmapFingerprint: Int?
     // Cursor side channel (UDP, WiFi only): positions queue behind video
     // frames on the shared TCP socket and stutter under head-of-line
     // blocking. Opened when hello advertises cursorPort; while ready,
@@ -2253,7 +2254,8 @@ final class MacSender: NSObject, SCStreamOutput, SCStreamDelegate {
 
     /// Sprite changes (arrow ↔ I-beam ↔ resize…) must land fast or the wrong
     /// cursor shows over hot areas — poll at 30Hz on the main thread (NSCursor
-    /// is AppKit), hash the raw bitmap, and only PNG-encode + send on change.
+    /// is AppKit). Fingerprint bitmap pixels before TIFF serialization, then
+    /// keep the existing PNG conversion and wire message on shape changes.
     ///
     /// A dedicated timer (cancelled+replaced here, like cursorTimer above) — not
     /// a self-rescheduling asyncAfter chain. Every rebuild re-enters
@@ -2433,13 +2435,23 @@ final class MacSender: NSObject, SCStreamOutput, SCStreamDelegate {
         let displaySize = CGDisplayBounds(captureDisplayID).size   // points, current mode
         guard displaySize.width > 0, displaySize.height > 0 else { return }
         let image = cursor.image
+        let fingerprint = CursorImageFingerprint.make(
+            image: image, hotSpot: cursor.hotSpot, displaySize: displaySize)
+        // A zero PNG hash is the existing forced-resend signal on reconnect
+        // and capture rebuild. It must bypass even a matching fingerprint.
+        if lastCursorPNGHash != 0, let fingerprint,
+           fingerprint == lastCursorBitmapFingerprint { return }
         guard let tiff = image.tiffRepresentation else { return }
         let hash = tiff.hashValue ^ Int(displaySize.width) &* 31
-        guard hash != lastCursorPNGHash else { return }
+        guard hash != lastCursorPNGHash else {
+            lastCursorBitmapFingerprint = fingerprint
+            return
+        }
         guard let rep = NSBitmapImageRep(data: tiff),
               let png = rep.representation(using: .png, properties: [:]),
               png.count < 24_000 else { return }
         lastCursorPNGHash = hash
+        lastCursorBitmapFingerprint = fingerprint
         let size = image.size            // Mac points
         let hot = cursor.hotSpot
         // Normalized against the display so the phone can size/anchor the
